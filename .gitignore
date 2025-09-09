@@ -1,10 +1,19 @@
+# macOS dummy file
 .DS_Store
+
+# Node.js module files
 node_modules
+
+# Build output
 /build
 /.svelte-kit
 /package
+
+# Environment files
 .env
 .env.*
 !.env.example
+
+# Vite log files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
